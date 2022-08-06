@@ -11,31 +11,33 @@ const LogoBox = styled.span`
   height: 30px;
   line-height: 20px;
   padding: 10px;
+  cursor: pointer;
 
-  img {
-    transition: 200ms ease;
-  }
+    &:hover img {
+        transform: rotate(20deg);
+    }
 
-  &:hover img {
-    transform: rotate(20deg);
-  }
-`
+    img {
+        transition: 200ms ease;
+    }
+`;
 
 const Logo = () => {
-  const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
+  const LogoImg = `/images/rocket${useColorModeValue('', '-dark')}.png`
 
   return (
     <Link href="/" scroll={false}>
       <a>
         <LogoBox>
-          <Image src={footPrintImg} width={20} height={20} alt="logo" />
+          <Image src={LogoImg} width={20} height={20} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='M PLUS Rounded 1c", sans-serif'
             fontWeight="bold"
             ml={3}
+
           >
-            Takuya Matsuyama
+            &nbsp;&nbsp;Adrien Hernandez
           </Text>
         </LogoBox>
       </a>
