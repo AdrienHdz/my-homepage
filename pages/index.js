@@ -128,7 +128,7 @@ const Home = () => (
           Graduated from HEC Montréal with a Master&apos;s degree in Data Science
         </BioSection>
         <BioSection>
-          <BioYear>2018 - 2019</BioYear>
+          <BioYear>2018</BioYear>
           <br></br>
           Worked as a data analytics consultant at Valtech 
         </BioSection>
