@@ -145,7 +145,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-        🚀 I'm currently 
+        🚀 I&apos;m currently 
         </Heading>
         <Paragraph>
           working on my software engineering skills as well as playing on Google Cloud Platform to get my machine learning engineer certification.
