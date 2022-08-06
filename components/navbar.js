@@ -77,7 +77,7 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-          <LinkItem
+          {/* <LinkItem
             target="_blank"
             rel="noreferrer"
             href="https://github.com/craftzdog/craftzdog-homepage"
@@ -89,7 +89,7 @@ const Navbar = props => {
           >
             <IoLogoGithub />
             Source
-          </LinkItem>
+          </LinkItem> */}
         </Stack>
 
         <Box flex={1} align="right">
