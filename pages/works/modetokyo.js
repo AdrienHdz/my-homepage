@@ -20,7 +20,7 @@ const Work = () => (
       <P>The mode magazine for understanding to personally enjoy Japan.</P>
       <P>
         It is one of the projects launched at{' '}
-        <Link href="https://innolab.jp/" target="_blank" rel="noreferrer">
+        <Link href="https://innolab.jp/" target="_blank" rel="noopener noreferrer">
           Open Innovation Lab (電通イノラボ) <ExternalLinkIcon mx="2px" />
         </Link>
         , aiming to visualize the impact of media contents on the visit of
