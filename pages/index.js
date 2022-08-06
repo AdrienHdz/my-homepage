@@ -118,27 +118,33 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2021 to present</BioYear>
+          <BioYear>2021 - Present</BioYear>
+          <br></br>
           Working as a data scientist at Desjardins
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
+          <br></br>
           Graduated from HEC Montréal with a Master&apos;s degree in Data Science
         </BioSection>
         <BioSection>
-          <BioYear>2018 to 2019</BioYear>
+          <BioYear>2018 - 2019</BioYear>
+          <br></br>
           Worked as a data analytics consultant at Valtech 
         </BioSection>
         <BioSection>
           <BioYear>2018</BioYear>
+          <br></br>
           Worked as a data analytics intern at Talbots in NC, US
         </BioSection>
         <BioSection>
-          <BioYear>2014 to 2018</BioYear>
+          <BioYear>2018</BioYear>
+          <br></br>
           Graduated from North Carolina State University and SKEMA with a double degree in Business Administration
         </BioSection>
         <BioSection>
           <BioYear>1994</BioYear>
+          <br></br>
           Born in Nice, France
         </BioSection>
       </Section>
@@ -193,7 +199,7 @@ const Home = () => (
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6} mt={6}>
-          <GridItem
+          {/* <GridItem
             href="https://www.youtube.com/devaslife"
             title="Dev as Life"
             thumbnail={thumbYouTube}
@@ -206,7 +212,7 @@ const Home = () => (
             thumbnail={thumbInkdrop}
           >
             A Markdown note-taking app
-          </GridItem>
+          </GridItem> */}
         </SimpleGrid>
 
         <Box align="center" my={6}>

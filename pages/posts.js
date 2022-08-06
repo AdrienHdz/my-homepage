@@ -14,12 +14,13 @@ import thumb50xFaster from '../public/images/contents/youtube-50x-faster.jpg'
 
 const Posts = () => (
   <Layout title="Posts">
-    <Container>
+    <Container
+    maxW="100ch">
       <Heading as="h3" fontSize={20} mb={4}>
         Popular Posts
       </Heading>
-
-      <Section delay={0.1}>
+      coming...
+      {/* <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="How to build a portfolio website"
@@ -72,7 +73,7 @@ const Posts = () => (
             href="https://www.youtube.com/watch?v=vj723NlrIQc"
           />
         </SimpleGrid>
-      </Section>
+      </Section> */}
     </Container>
   </Layout>
 )
