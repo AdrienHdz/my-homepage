@@ -72,6 +72,7 @@ const Work = () => (
           className="link-appstore"
           href="https://itunes.apple.com/app/id1035645520?mt=8"
           target="_blank"
+          rel="noreferrer"
         >
           <Image
             maxW={240}

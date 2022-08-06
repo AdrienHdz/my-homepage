@@ -71,6 +71,7 @@ const Work = () => (
           User reviews&nbsp;
           <Link
             target="_blank"
+            rel="noreferrer"
             href="http://www.vector.co.jp/soft/cmt/win95/art/se350576.html"
           >
             from Vector

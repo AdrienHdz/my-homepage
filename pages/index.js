@@ -95,7 +95,7 @@ const Home = () => (
           I&apos;m a data scientist specialized in designing, developping and deploying scalable real-world machine learning systems.
           I&apos;m working at {' '}
           <NextLink href="https://www.desjardins.com/ca/about-us/desjardins/who-we-are/quick-facts/index.jsp" passHref>
-            <Link target="_blank">Desjardins</Link>
+            <Link target="_blank" rel="noreferrer">Desjardins</Link>
           </NextLink> 
           , the largest credit union in North America where I&apos;m involved in the creation and deployment of innovative AI apps that are used on a daily basis by several business teams.  
           Having a deep passion for new technologies and how they impact our society, I love to nerd out on creative data-related problems. I&apos;m also involved in the AI community by mentoring and giving workshops to students and startups.

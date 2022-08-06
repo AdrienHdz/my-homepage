@@ -5,7 +5,7 @@ const Footer = () => {
     <Box align="center" opacity={0.4} fontSize="sm">
       &copy; {new Date().getFullYear()} Adrien Hernandez. All Rights Reserved. 
       <br></br>
-      This website is built based on the <a href='https://www.craftz.dog/' target='_blank'>Takuya Matsuyama&apos;s website</a>. ❤️
+      This website is built based on the <a href='https://www.craftz.dog/' target='_blank' rel="noreferrer">Takuya Matsuyama&apos;s website</a>. ❤️
     </Box>
   )
 }

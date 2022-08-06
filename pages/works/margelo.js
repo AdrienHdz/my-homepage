@@ -22,7 +22,7 @@ const Work = () => (
         agency based in Vienna, Austria.
       </P>
       <P>
-        <Link href="https://twitter.com/mrousavy" target="_blank">
+        <Link href="https://twitter.com/mrousavy" target="_blank" rel="noreferrer">
           Marc Rousavy <ExternalLinkIcon mx="2px" />
         </Link>
         , the founder of the agency, is my friend from the React Native
@@ -35,7 +35,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <span>
-            <Link href="https://margelo.io/" target="_blank">
+            <Link href="https://margelo.io/" target="_blank" rel="noreferrer">
               https://margelo.io/ <ExternalLinkIcon mx="2px" />
             </Link>
           </span>

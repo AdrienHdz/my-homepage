@@ -79,6 +79,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
+            rel="noreferrer"
             href="https://github.com/craftzdog/craftzdog-homepage"
             path={path}
             display="inline-flex"
