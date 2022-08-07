@@ -25,4 +25,4 @@ MIT License.
 
 ---
 
-This homepage is designed based on craftzdog's tutorial  [Source owner](https://www.craftz.dog/)
+This homepage is designed based on craftzdog's tutorial: [Source owner](https://www.craftz.dog/)
