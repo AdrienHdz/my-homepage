@@ -214,13 +214,15 @@ const Home = () => (
             A Markdown note-taking app
           </GridItem> */}
         </SimpleGrid>
-
-        <Box align="center" my={6}>
+        <Box align="center" my={0}>
           <NextLink href="/posts" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Popular posts
             </Button>
           </NextLink>
+        </Box>
+        <Box flexGrow={1} align="center" my={6}>
+          <p><i>&quot;Thy thought to Thee an Empire be&quot;</i></p>
         </Box>
       </Section>
     </Container>
