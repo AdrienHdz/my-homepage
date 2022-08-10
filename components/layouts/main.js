@@ -23,11 +23,11 @@ const Main = ({ children, router }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@Adrien_Hdz_" />
         <meta name="twitter:creator" content="@Adrien_Hdz_" />
-        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
+        <meta name="twitter:image" content="https://www.adrienhernandez.com/card.jpg" />
         <meta property="og:site_name" content="Adrien Hernandez" />
         <meta name="og:title" content="Adrien Hernandez" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
+        <meta property="og:image" content="https://www.adrienhernandez.com/card.jpg" />
         <title>Adrien Hernandez - Homepage</title>
       </Head>
 
