@@ -101,7 +101,7 @@ const Home = () => (
           Having a deep passion for new technologies and how they impact our society, I love to nerd out on creative data-related problems. I&apos;m also involved in the AI community by mentoring and giving workshops to students and startups.
           <br></br>
           <br></br>
-          <b>Stacks:</b> Google Cloud Platform (Vertex AI + Compute Engine + Cloud Run + BigQuery...) + Docker + Kubernetes + CI/CD + Python + Pytorch + BERT + XGBoost + Dash + CSS + React.js
+          <b>Stacks:</b> Google Cloud Platform (Vertex AI + Compute Engine + Cloud Run + BigQuery...) + Docker + Kubernetes + CI/CD + Python + Pytorch + BERT + XGBoost + Dash + CSS + Angular
 
         </Paragraph>
         <Box align="center" mt={6}>
