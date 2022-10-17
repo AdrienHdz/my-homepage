@@ -7,12 +7,7 @@ import { GridItem } from '../components/grid-item'
 
 import thumbAppliedAi from '../public/images/contents/applied-ai-for-startups.png'
 import thumbCourseMlIvado from '../public/images/contents/course-ml-ivado.png'
-import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
-import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jpg'
-import thumb500PaidUsers from '../public/images/contents/blog-500-paid-users.jpg'
-import thumbFinancialGoal from '../public/images/contents/blog-financial-goal.png'
-import thumbHowToPriceYourself from '../public/images/contents/blog-how-to-price-yourself.jpg'
-import thumb50xFaster from '../public/images/contents/youtube-50x-faster.jpg'
+
 
 const Posts = () => (
   <Layout title="Posts">
