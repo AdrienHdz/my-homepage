@@ -16,10 +16,10 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-// import { GridItem } from '../components/grid-item'
+import { GridItem } from '../components/grid-item'
 import { IoLogoLinkedin, IoMailOutline, IoLogoGithub } from 'react-icons/io5'
-// import thumbYouTube from '../public/images/links/youtube.png'
-// import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import thumbAppliedAi from '../public/images/contents/applied-ai-for-startups.png'
+import thumbCourseMlIvado from '../public/images/contents/course-ml-ivado.png'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -199,20 +199,18 @@ const Home = () => (
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6} mt={6}>
-          {/* <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
+          <GridItem
+            title="Applied AI for startups - Cooperathon - 2022"
+            thumbnail={thumbAppliedAi}
+            href="https://www.slideshare.net/AdrienAdriHdz/applied-ai-for-startups"
           >
-            My YouTube channel (&gt;100k subs)
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
+            title="Machine learning intermediate in R (french) - IVADO Data.Trek - 2022"
+            thumbnail={thumbCourseMlIvado}
+            href="https://www.youtube.com/watch?v=4I7OGm_MfDA"
           >
-            A Markdown note-taking app
-          </GridItem> */}
+          </GridItem>
         </SimpleGrid>
         <Box align="center" my={0}>
           <NextLink href="/posts" passHref scroll={false}>

@@ -1,18 +1,18 @@
 // import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import { Container, Heading } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 
 import Layout from '../components/layouts/article'
-// import Section from '../components/section'
-// import { GridItem } from '../components/grid-item'
+import Section from '../components/section'
+import { GridItem } from '../components/grid-item'
 
-// import thumbPortfolio from '../public/images/contents/youtube-how-to-build-portfolio.jpg'
-// import thumbHowToUseInkdrop from '../public/images/contents/youtube-how-to-use-inkdrop.jpg'
-// import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
-// import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jpg'
-// import thumb500PaidUsers from '../public/images/contents/blog-500-paid-users.jpg'
-// import thumbFinancialGoal from '../public/images/contents/blog-financial-goal.png'
-// import thumbHowToPriceYourself from '../public/images/contents/blog-how-to-price-yourself.jpg'
-// import thumb50xFaster from '../public/images/contents/youtube-50x-faster.jpg'
+import thumbAppliedAi from '../public/images/contents/applied-ai-for-startups.png'
+import thumbCourseMlIvado from '../public/images/contents/course-ml-ivado.png'
+import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
+import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jpg'
+import thumb500PaidUsers from '../public/images/contents/blog-500-paid-users.jpg'
+import thumbFinancialGoal from '../public/images/contents/blog-financial-goal.png'
+import thumbHowToPriceYourself from '../public/images/contents/blog-how-to-price-yourself.jpg'
+import thumb50xFaster from '../public/images/contents/youtube-50x-faster.jpg'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -21,20 +21,19 @@ const Posts = () => (
       <Heading as="h3" fontSize={20} mb={4}>
         Popular Posts
       </Heading>
-      coming...
-      {/* <Section delay={0.1}>
+      <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="How to build a portfolio website"
-            thumbnail={thumbPortfolio}
-            href="https://www.youtube.com/watch?v=bSMZgXzC9AA"
+            title="Applied AI for startups - Cooperathon - 2022"
+            thumbnail={thumbAppliedAi}
+            href="https://www.slideshare.net/AdrienAdriHdz/applied-ai-for-startups"
           />
           <GridItem
-            title="How to take notes in Markdown efficiently with Inkdrop"
-            thumbnail={thumbHowToUseInkdrop}
-            href="https://www.youtube.com/watch?v=-qBavwqc_mY"
+            title="Machine learning intermediate in R (french) - IVADO Data.Trek - 2022"
+            thumbnail={thumbCourseMlIvado}
+            href="https://www.youtube.com/watch?v=4I7OGm_MfDA"
           />
-          <GridItem
+          {/* <GridItem
             title="My Fish workflow"
             thumbnail={thumbFishWorkflow}
             href="https://www.youtube.com/watch?v=KKxhf50FIPI"
@@ -43,11 +42,11 @@ const Posts = () => (
             title="My desk setup (Late 2020)"
             thumbnail={thumbMyDeskSetup}
             href="https://www.youtube.com/watch?v=1OFDMwDlnOE"
-          />
+          /> */}
         </SimpleGrid>
       </Section>
 
-      <Section delay={0.3}>
+      {/* <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="How I’ve Attracted The First 500 Paid Users For My SaaS That Costs $5/mo"
