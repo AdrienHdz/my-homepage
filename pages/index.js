@@ -18,8 +18,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoLinkedin, IoMailOutline, IoLogoGithub } from 'react-icons/io5'
+import thumbMagicCroppingTool from '../public/images/works/magic-cropping-tool_eyecatch.png'
 import thumbAppliedAi from '../public/images/contents/applied-ai-for-startups.png'
-import thumbCourseMlIvado from '../public/images/contents/course-ml-ivado.png'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -38,7 +38,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a data scientist based in Québec!
+        Hello, I&apos;m an MLOps based in Québec!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -92,16 +92,17 @@ const Home = () => (
           Who am I?
         </Heading>
         <Paragraph>
-          I&apos;m a data scientist specialized in designing, developping and deploying scalable real-world machine learning systems.
-          I&apos;m working at {' '}
+          I&apos;m an MLOps specialized in designing, developping and deploying scalable real-world machine learning products.
+          I&apos;m currently working at {' '}
           <NextLink href="https://www.desjardins.com/ca/about-us/desjardins/who-we-are/quick-facts/index.jsp" passHref>
             <Link target="_blank" rel="noreferrer">Desjardins</Link>
           </NextLink> 
-          , the largest credit union in North America where I&apos;m involved in the creation and deployment of innovative AI apps that are used on a daily basis by several business teams.  
-          Having a deep passion for new technologies and how they impact our society, I love to nerd out on creative data-related problems. I&apos;m also involved in the AI community by mentoring and giving workshops to students and startups.
+          , the largest credit union in North America where I&apos;ve been involved in the creation and deployment of innovative AI apps valued at more than 1$ million and that have enabled dozens of business teams to better meet the needs of more than 7.5 million Canadians.
+          <br></br>
+          Having 4+ years of experience in the field of data science across Canada, the US and France, I started my career in the tech industry working for a startup that created the Clean Beauty mobile applications that uses AI (OCR) to help more than 1 million in 30+ countries choose better and safer cosmetic products.
           <br></br>
           <br></br>
-          <b>Stacks:</b> Google Cloud Platform (Vertex AI + Compute Engine + Cloud Run + BigQuery...) + Docker + Kubernetes + CI/CD + Python + Pytorch + BERT + XGBoost + Dash + CSS + Angular
+          <b>Stacks:</b> Google Cloud Platform (Vertex AI + Compute Engine + Cloud Run + BigQuery...) + Python + Pytorch + REST APIs + Docker + Kubernetes + CI/CD + Large Language Models + XGBoost + Dash + tailwind CSS + typescript + Angular
 
         </Paragraph>
         <Box align="center" mt={6}>
@@ -199,16 +200,16 @@ const Home = () => (
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6} mt={6}>
+        <GridItem
+            title="A computer vision app that uses AI to crop images automatically - 2023"
+            thumbnail={thumbMagicCroppingTool}
+            href="https://magic-cropping-tool.com/"
+          >
+          </GridItem>
           <GridItem
             title="Applied AI for startups - Cooperathon - 2022"
             thumbnail={thumbAppliedAi}
             href="https://www.slideshare.net/AdrienAdriHdz/applied-ai-for-startups"
-          >
-          </GridItem>
-          <GridItem
-            title="Machine learning intermediate in R (french) - IVADO Data.Trek - 2022"
-            thumbnail={thumbCourseMlIvado}
-            href="https://www.youtube.com/watch?v=4I7OGm_MfDA"
           >
           </GridItem>
         </SimpleGrid>
