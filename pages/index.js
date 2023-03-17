@@ -84,6 +84,7 @@ const Home = () => (
               borderRadius="full"
               width="120%"
               height="120%"
+              itemProp="image"
             />
       </Box>
       </Section>
