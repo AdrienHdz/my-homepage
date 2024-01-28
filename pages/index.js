@@ -107,7 +107,7 @@ const Home = () => (
           </NextLink> 
           , North America&apos;s largest financial cooperative.  
           <br></br>
-          My contributions include co-creating AI systems that have generated savings and operational improvements exceeding $1 million annually.
+          My contributions include co-creating AI systems with the potential to deliver operational improvements and cost efficiencies valued at over 1$ million annually.
           <br></br>
           <br></br>
           <b>Stacks:</b> 
