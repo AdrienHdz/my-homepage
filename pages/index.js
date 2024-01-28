@@ -44,7 +44,7 @@ const Home = () => (
       >
         Hi, I&apos;m a Machine Learning Enginner based in North Carolina!
         <br></br>
-        I'm seeking remote opportunities in the USA as a ML/MLOps Engineer.
+        I&apos;m seeking remote opportunities in the USA as a ML/MLOps Engineer.
 
       </Box>
 
@@ -105,7 +105,7 @@ const Home = () => (
           <NextLink href="https://www.desjardins.com/ca/about-us/desjardins/who-we-are/quick-facts/index.jsp" passHref>
             <Link target="_blank" rel="noreferrer">Desjardins</Link>
           </NextLink> 
-          , North America's largest financial cooperative.  
+          , North America&apos;s largest financial cooperative.  
           <br></br>
           My contributions include co-creating AI systems that have generated savings and operational improvements exceeding $1 million annually.
           <br></br>
