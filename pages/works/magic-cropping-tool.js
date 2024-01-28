@@ -14,7 +14,7 @@ const Work = () => (
   <Layout title="Magic Cropping Tool">
     <Container>
       <Title>
-        Magic Cropping Tool <Badge>2023-</Badge>
+        Magic Cropping Tool <Badge>2023</Badge>
       </Title>
       <P>
       A computer vision app that uses AI to crop your pictures according to their most interesting part.
@@ -22,15 +22,21 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
+          <Meta>Stack</Meta>
+          <span>Python, FastAPI, Angular, typescript, tailwindcss, Google Cloud Platform, Cloud Run, Docker, Deep Learning</span>
+        </ListItem>
+        <ListItem>
           <Meta>Website</Meta>
           <Link href="https://magic-cropping-tool.com/">
           https://magic-cropping-tool.com/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
-          <Meta>Stack</Meta>
-          <span>Python, FastAPI, Angular, typescript, tailwindcss, Google Cloud Platform, Cloud Run, Docker, Deep Learning</span>
-        </ListItem>
+        <Meta>Source</Meta>
+          <Link href="https://github.com/AdrienHdz/magic-cropping-tool">
+          https://github.com/AdrienHdz/magic-cropping-tool <ExternalLinkIcon mx="2px" />
+          </Link>
+          </ListItem>
       </List>
 
       <WorkImage src="/images/works/magic-cropping-tool_01.png" alt="Magic Cropping Tool" />
