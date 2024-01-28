@@ -5,16 +5,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbMagicCroppingTool from '../public/images/works/magic-cropping-tool_eyecatch.png'
-// import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-// import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-// import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-// import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-// import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
-// import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-// import thumbStyly from '../public/images/works/styly_eyecatch.png'
-// import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-// import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-// import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+import thumbLexiAIAssistant from '../public/images/works/lexi-ai-assistant-eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -24,20 +15,21 @@ const Works = () => (
         Works
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section>
+          <WorkGridItem
+            id="lexi-ai-assistant"
+            title="Lexi, AI Assistant"
+            thumbnail={thumbLexiAIAssistant}
+          >
+            A fully customizable AI avatar customer assistant capable of answering 
+            any questions related to any custom text database
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem id="magic-cropping-tool" title="Magic Cropping Tool" thumbnail={thumbMagicCroppingTool}>
             A computer vision app that uses AI to crop your pictures according to their most interesting part
           </WorkGridItem>
         </Section>
-        {/* <Section>
-          <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
-          >
-            Music recommendation app for iOS
-          </WorkGridItem>
-        </Section> */}
 
         {/* <Section delay={0.1}>
           <WorkGridItem
