@@ -43,8 +43,6 @@ const Home = () => (
         css={{ backdropFilter: 'blur(10px)' }}
       >
         Hi, I&apos;m a Machine Learning Enginner based in North Carolina!
-        <br></br>
-        I&apos;m seeking remote opportunities in the USA as a ML/MLOps Engineer.
 
       </Box>
 
@@ -177,7 +175,7 @@ const Home = () => (
         🚀 I&apos;m currently 
         </Heading>
         <Paragraph>
-          Seeking remote opportunities in the USA as a ML/MLOps Engineer.
+          
         </Paragraph>
       </Section>
 
